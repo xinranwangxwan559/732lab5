@@ -1,0 +1,17 @@
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  grid-auto-rows: auto;
+  gap: 10px;
+}
+
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cartContainer {
+  position: sticky;
+  top: 10px;
+}

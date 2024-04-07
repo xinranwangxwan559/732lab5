@@ -1,0 +1,18 @@
+.cart {
+  border: 1px dotted black;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 5px;
+  padding: 5px;
+}
+
+.cartItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
